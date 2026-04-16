@@ -1,12 +1,10 @@
 [project]
-name = "sm"
+name = "nogvias-yars"
 version = "0.1.0"
-description = "Add your description here"
+description = "Fork of YARS"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "flask>=3.0.3",
-    "meta-ai-api>=1.2.1",
     "pygments>=2.18.0",
     "requests>=2.32.3",
 ]
