@@ -7,12 +7,11 @@ import requests
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
 
-logger = logging.basicConfig(
+logging.basicConfig(
     filename="YARS.log",
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
 )
-
 
 class YARS:
     __slots__ = ("headers", "session", "proxy", "timeout")
